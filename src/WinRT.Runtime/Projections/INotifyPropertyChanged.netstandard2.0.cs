@@ -9,7 +9,7 @@ using WinRT.Interop;
 namespace ABI.System.ComponentModel
 {
     [global::WinRT.ObjectReferenceWrapper(nameof(_obj)), global::System.ComponentModel.EditorBrowsable(global::System.ComponentModel.EditorBrowsableState.Never)]
-    [Guid("90B17601-B065-586E-83D9-9ADC3A695284")]
+    [Guid("CF75D69C-F2F4-486B-B302-BB4C09BAEBFA")]
 #if EMBED
     internal
 #else
@@ -17,7 +17,7 @@ namespace ABI.System.ComponentModel
 #endif
     unsafe class INotifyPropertyChanged : global::System.ComponentModel.INotifyPropertyChanged
     {
-        [Guid("90B17601-B065-586E-83D9-9ADC3A695284")]
+        [Guid("CF75D69C-F2F4-486B-B302-BB4C09BAEBFA")]
         [StructLayout(LayoutKind.Sequential)]
         public struct Vftbl
         {
